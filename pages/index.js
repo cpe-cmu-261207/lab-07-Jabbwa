@@ -100,7 +100,7 @@ export default function Home() {
             <Todo
               //10. update prop sending
               title={todo.title}
-              key={todo.title}
+              key={idx}
               //12. update prop sending
               completed={todo.completed}
               //3. add callback
